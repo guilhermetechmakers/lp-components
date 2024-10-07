@@ -53,7 +53,7 @@ export function AnimatedBeamMultipleOutputDemo({
   return (
     <div
       className={cn(
-        "relative flex h-[500px] w-full items-center justify-center overflow-hidden  bg-background p-10 ",
+        "relative flex h-full w-full items-center justify-center overflow-hidden bg-[#FAF9F6] p-5",
         className,
       )}
       ref={containerRef}
@@ -122,4 +122,3 @@ export function AnimatedBeamMultipleOutputDemo({
   );
 }
 
-// End of Selection
