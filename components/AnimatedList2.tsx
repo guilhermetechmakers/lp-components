@@ -89,7 +89,7 @@ export function AnimatedListDemo2({
   return (
     <div
       className={cn(
-        "relative flex h-[500px] w-full flex-col p-6 overflow-hidden rounded-lg border bg-background ",
+        "relative flex h-[500px] w-full flex-col p-6 overflow-hidden bg-[#FAF9F6] ", // Changed background color to #FAF9F6
         className,
       )}
     >
